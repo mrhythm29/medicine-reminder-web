@@ -52,4 +52,6 @@ MedicineReminderWeb/
 ```bash
 git clone https://github.com/your-username/medicine-reminder-web.git
 cd medicine-reminder-web
-pip install -r requirements.txt<img width="1184" height="687" alt="MedicineReminderWeb image" src="https://github.com/user-attachments/assets/16786bd8-f336-48bd-a071-cea2f569b960" />
+pip install -r requirements.txt
+
+<img width="1184" height="687" alt="MedicineReminderWeb image" src="https://github.com/user-attachments/assets/222e105b-fa1b-4ed4-96c5-90e8a78c1317" />
