@@ -40,6 +40,10 @@ MedicineReminderWeb/
 ├── static/
 │ └── style.css
 
+## 🌐 Live Demo
+
+🚀 Try the app here:  
+👉 https://medicine-reminder-web.onrender.com
 
 ---
 
