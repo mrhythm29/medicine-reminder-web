@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medicine Reminder PRO</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>💊 Smart Medicine Reminder</h1>
+
+    <form method="POST" class="form">
+        <input type="text" name="name" placeholder="Enter Medicine Name" required>
+        <input type="time" name="time" required>
+        <button type="submit">➕ Add</button>
+    </form>
+
+    <h2>Your Medicines</h2>
+
+    <div class="card">
+        {% for med in medicines %}
+            <div class="item">
+                <span>{{ med.name }} <small>({{ med.time }})</small></span>
+                <a href="/delete/{{ loop.index0 }}">❌</a>
+            </div>
+        {% endfor %}
+    </div>
+
+</div>
+
+</body>
+</html>
