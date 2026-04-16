@@ -50,7 +50,7 @@ MedicineReminderWeb/
 ## ⚙️ Installation & Setup
 
 ```bash
-git clone https://github.com/your-username/medicine-reminder-web.git
+git clone https://github.com/mrhythm29/medicine-reminder-web.git
 cd medicine-reminder-web
 pip install -r requirements.txt
 
